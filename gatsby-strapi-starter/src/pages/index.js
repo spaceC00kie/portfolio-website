@@ -35,18 +35,18 @@ let Index = () => (
     <Slider />
     <Container className="pt-4">
       <div className="text-center">
-        <h4>A slightly opinionated Gatsby starter template.</h4>
+        <h4>A slightly opinionated programmer.</h4>
         <p className="text-muted">
-          Built with love on the Gold Coast, QLD Australia
+          What in the world do I write here?
         </p>
       </div>
     </Container>
     <Container className="py-5">
-      <h2 className="text-center mb-4">Services</h2>
+      <h2 className="text-center mb-4">Check these out</h2>
       <Row>
-        <Service title="Websites" />
-        <Service title="SEO" Icon={FaBolt} />
-        <Service title="API" Icon={FaWrench} />
+        <Service title="Projects" />
+        <Service title="Harry Potter" Icon={FaBolt} />
+        <Service title="Skills" Icon={FaWrench} />
       </Row>
     </Container>
     <div className="text-center py-5">
@@ -55,7 +55,7 @@ let Index = () => (
         className="btn btn-primary btn-lg"
       >
         <FaGithub className="mr-1" />
-        View on Github
+        Check out my Github
       </Button>
     </div>
     <StyledBackground>
@@ -65,7 +65,7 @@ let Index = () => (
           <Row className="d-flex justify-content-center">
             <Col md={8}>
               <Box style={{ textAlign: "left" }}>
-                <h3 className="text-center">Reactstrap Form Fields</h3>
+                <h3 className="text-center">Do I even need this?</h3>
                 <Hr />
                 <Form />
               </Box>
