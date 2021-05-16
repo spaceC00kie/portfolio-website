@@ -46,7 +46,7 @@ let Contact = ({ data }) => {
   let { address, email, phone, fax } = data.site.siteMetadata
   return (
     <Layout>
-      <PageTitle title="Contact Us" />
+      <PageTitle title="Contact Me" />
       <Container>
         <Row className="py-5">
           <ContactItem text={address} type="Address" Icon={FaMapMarkerAlt} />
@@ -67,7 +67,7 @@ let Contact = ({ data }) => {
         <hr />
         <Row className="py-5">
           <Col md={6} className="m-auto">
-            <h4 className="text-center text-secondary">Message Us</h4>
+            <h4 className="text-center text-secondary">Message Me</h4>
             <Hr />
             <ContactForm />
           </Col>

@@ -7,7 +7,7 @@ module.exports = {
     description: `A slightly opinionated Gatsby Landing Page starter template. `,
     author: `Jeremy Lynch`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
-    phone: "1800123456",
+    phone: "7707137720",
     fax: "180012345",
     address: "123 fake street",
     email: "contact@test.com",

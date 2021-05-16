@@ -23,7 +23,7 @@ const HeaderItem = ({ text, title, Icon, url, klass, type }) => (
             <NumberFormat
               value={text}
               displayType={"text"}
-              format="#### ### ###"
+              format="### ### ####"
             />
           )}
         </StyledLink>
