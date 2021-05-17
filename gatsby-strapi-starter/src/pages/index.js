@@ -36,9 +36,7 @@ let Index = () => (
     <Container className="pt-4">
       <div className="text-center">
         <h4>A slightly opinionated programmer.</h4>
-        <p className="text-muted">
-          What in the world do I write here?
-        </p>
+        <p className="text-muted">What in the world do I write here?</p>
       </div>
     </Container>
     <Container className="py-5">
@@ -58,22 +56,6 @@ let Index = () => (
         Check out my Github
       </Button>
     </div>
-    <StyledBackground>
-      <Benefits />
-      <div className="py-5">
-        <Container>
-          <Row className="d-flex justify-content-center">
-            <Col md={8}>
-              <Box style={{ textAlign: "left" }}>
-                <h3 className="text-center">Do I even need this?</h3>
-                <Hr />
-                <Form />
-              </Box>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    </StyledBackground>
     <HomeFeatures />
   </Layout>
 )

@@ -3,13 +3,13 @@ let gtm = "1234"
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Landing Page Starter`,
-    description: `A slightly opinionated Gatsby Landing Page starter template. `,
-    author: `Jeremy Lynch`,
+    title: `My Name`,
+    description: `My website. `,
+    author: `Me`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
     phone: "7707137720",
     fax: "180012345",
-    address: "123 fake street",
+    address: "Atlanta, GA",
     email: "contact@test.com",
   },
   plugins: [
