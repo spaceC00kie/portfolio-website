@@ -3,14 +3,14 @@ let gtm = "1234"
 
 module.exports = {
   siteMetadata: {
-    title: `My Name`,
+    title: `Kirstie Wilkinson`,
     description: `My website. `,
     author: `Me`,
-    siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
+    siteUrl: `https://gatsby-strapi-starter.netlify.com/`, 
     phone: "7707137720",
     fax: "180012345",
     address: "Atlanta, GA",
-    email: "contact@test.com",
+    email: "kwilkinson.professional@gmail.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
