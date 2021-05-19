@@ -11,8 +11,6 @@ import {
 let Banner = ({
   title,
   phone,
-  facebook_url = null,
-  instagram_url = null,
   address,
 }) => {
   const phone_url = "tel:" + phone.replace(/ /g, "")
@@ -45,16 +43,6 @@ let Banner = ({
               url={phone_url}
               klass="d-sm-flex d-none mr-3"
             />
-            {facebook_url ? (
-              <IconLink href={facebook_url} Icon={FaFacebookF} />
-            ) : (
-              ""
-            )}
-            {instagram_url ? (
-              <IconLink href={instagram_url} Icon={FaInstagram} />
-            ) : (
-              ""
-            )}
           </div>
         </div>
       </Container>
