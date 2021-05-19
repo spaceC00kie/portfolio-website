@@ -43,13 +43,12 @@ let ContactItem = ({ text, type, Icon, href }) => (
 )
 
 let Contact = ({ data }) => {
-  let { address, email, phone } = data.site.siteMetadata
+  let { email, phone } = data.site.siteMetadata
   return (
     <Layout>
       <PageTitle title="Contact Me" />
       <Container>
         <Row className="py-5">
-          <ContactItem text={address} type="Address" Icon={FaMapMarkerAlt} />
           <ContactItem
             text={email}
             href={`mailto:${email}`}
@@ -81,7 +80,6 @@ export const query = graphql`
   query Contact {
     site {
       siteMetadata {
-        address
         email
         phone
       }

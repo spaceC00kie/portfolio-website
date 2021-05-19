@@ -24,15 +24,14 @@ const Layout = ({ children }) => {
         siteMetadata {
           title
           phone
-          address
         }
       }
     }
   `)
-  let { title, phone, address } = data.site.siteMetadata
+  let { title, phone } = data.site.siteMetadata
   return (
     <ThemeProvider theme={theme}>
-      <Banner title={title} phone={phone} address={address} />
+      <Banner title={title} phone={phone} />
       <Header siteTitle={title} />
       <main>{children}</main>
       <Footer />
