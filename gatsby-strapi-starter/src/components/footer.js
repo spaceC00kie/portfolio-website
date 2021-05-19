@@ -54,7 +54,11 @@ let Footer = () => (
             </ul>
           </Col>
         ))}
-
+        <Col xs={12} md={3}>
+          <h5>Find me on social media!</h5>
+          <SocialLink Icon={FaFacebookSquare} />
+          <SocialLink Icon={FaInstagram} />
+        </Col>
       </Row>
     </Container>
   </FooterStyling>

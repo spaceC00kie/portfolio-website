@@ -44,7 +44,7 @@ let Index = () => (
       <Row>
         <Service title="Projects" />
         <Service title="Harry Potter" Icon={FaBolt} />
-        <Service title="Skills" Icon={FaWrench} />
+        <Service title="Tech Skills Here" Icon={FaWrench} />
       </Row>
     </Container>
     <div className="text-center py-5">
