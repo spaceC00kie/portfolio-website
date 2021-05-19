@@ -7,7 +7,6 @@ module.exports = {
     description: `My website`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
     phone: "7707137720",
-    fax: "180012345",
     address: "Atlanta, GA",
     email: "kwilkinson.professional@gmail.com",
   },
