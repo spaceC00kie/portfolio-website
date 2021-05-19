@@ -4,9 +4,8 @@ let gtm = "1234"
 module.exports = {
   siteMetadata: {
     title: `Kirstie Wilkinson`,
-    description: `My website. `,
-    author: `Me`,
-    siteUrl: `https://gatsby-strapi-starter.netlify.com/`, 
+    description: `My website`,
+    siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
     phone: "7707137720",
     fax: "180012345",
     address: "Atlanta, GA",
