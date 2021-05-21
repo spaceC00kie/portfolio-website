@@ -5,9 +5,8 @@ module.exports = {
   siteMetadata: {
     title: `Kirstie Wilkinson`,
     description: `My website`,
-    siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
+    siteUrl: `https://gatsby-strapi-starter.netlify.com/`, //don't forget to change this!
     phone: "7707137720",
-    address: "Atlanta, GA",
     email: "kwilkinson.professional@gmail.com",
   },
   plugins: [

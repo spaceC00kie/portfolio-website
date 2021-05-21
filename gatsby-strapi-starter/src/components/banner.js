@@ -13,7 +13,6 @@ let Banner = ({
   phone,
   facebook_url = null,
   instagram_url = null,
-  address,
 }) => {
   const phone_url = "tel:" + phone.replace(/ /g, "")
   return (
@@ -31,13 +30,6 @@ let Banner = ({
             />
           </div>
           <div className="d-flex">
-            <HeaderItem
-              text={address}
-              type="address"
-              Icon={FaMapMarkerAlt}
-              url="/contact"
-              klass="d-lg-flex d-none mr-3"
-            />
             <HeaderItem
               text={phone}
               type="phone"
