@@ -36,15 +36,15 @@ let Index = () => (
     <Container className="pt-4">
       <div className="text-center">
         <h4>A slightly opinionated programmer.</h4>
-        <p className="text-muted">What in the world do I write here?</p>
+        <p className="text-muted">What do I have opinions about?</p>
       </div>
     </Container>
     <Container className="py-5">
-      <h2 className="text-center mb-4">Check these out</h2>
+      <h2 className="text-center mb-4">Points of interest</h2>
       <Row>
         <Service title="Projects" />
+        <Service title="Tech Skills" Icon={FaWrench} />
         <Service title="Harry Potter" Icon={FaBolt} />
-        <Service title="Tech Skills Here" Icon={FaWrench} />
       </Row>
     </Container>
     <div className="text-center py-5">
