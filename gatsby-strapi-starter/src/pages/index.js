@@ -36,7 +36,7 @@ let Index = () => (
     <Container className="pt-4">
       <div className="text-center">
         <h4>A slightly opinionated programmer.</h4>
-        <p className="text-muted">What do I have opinions about?</p>
+        <p className="text-muted">I'll help you get it done</p>
       </div>
     </Container>
     <Container className="py-5">

@@ -42,12 +42,12 @@ let SlickSlider = () => {
         </div>
         <div>
           <div className="text-center">
-            <h1>{title}</h1>
+            <h1>is pretty cool!</h1>
           </div>
         </div>
         <div>
           <div className="text-center">
-            <h1>{title}</h1>
+            <h1>She's figuring this out</h1>
           </div>
         </div>
       </Slider>

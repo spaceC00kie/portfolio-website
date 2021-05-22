@@ -20,9 +20,6 @@ const Header = (props) => {
   return (
     <StyledNavbar color="light" light expand="md">
       <Container>
-        <Link to="/" className="navbar-brand">
-          <img src={logo} alt="Logo" height="25px" />
-        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Navigation
