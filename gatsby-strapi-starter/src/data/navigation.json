@@ -2,12 +2,12 @@
   { "name": "Home", "url": "/" },
   { "name": "About", "url": "/about" },
   {
-    "name": "Options",
+    "name": "My Projects",
     "url": "",
     "dropdownItems": [
-      { "name": "Option 1", "url": "/test" },
-      { "name": "Option 2", "url": "/test" },
-      { "name": "Reset", "url": "/test" }
+      { "name": "Task Manager", "url": "/test" },
+      { "name": "Soil Sensor", "url": "/test" },
+      { "name": "TBD", "url": "/test" }
     ]
   },
   {

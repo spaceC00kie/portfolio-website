@@ -49,17 +49,17 @@ let HomeFeatures = () => {
     <Container className="py-5">
       <Row>
         <Feature
-          title="Surprise!"
-          description="This woman is amazed by just how good I am. Let's ask why."
+          title="Task Manager"
+          description="This woman is surprised by my task manager. I don't know why, but she is."
           img={data.slide1.childImageSharp.fluid}
         />
         <Feature
-          title="Social Skills"
-          description="This guy knows"
+          title="Soil Sensor"
+          description="This guy thinks my soil sensor project is really neat."
           img={data.slide2.childImageSharp.fluid}
         />
         <Feature
-          title="Digital Technology"
+          title="TBD"
           description="This dead phone is so cool! ...What are my headphones connected to?"
           img={data.slide3.childImageSharp.fluid}
         />

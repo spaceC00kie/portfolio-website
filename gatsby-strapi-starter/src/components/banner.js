@@ -6,6 +6,7 @@ import {
   FaFacebookF,
   FaMapMarkerAlt,
   FaPhone,
+  FaGithub,
 } from "react-icons/fa"
 
 let Banner = ({

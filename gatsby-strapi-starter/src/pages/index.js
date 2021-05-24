@@ -10,7 +10,6 @@ import Form from "../components/form"
 import Slider from "../components/slider"
 import Box from "../components/box"
 import Hr from "../components/hr"
-import Benefits from "../components/benefits"
 import styled from "styled-components"
 import HomeFeatures from "../components/homeFeatures"
 
