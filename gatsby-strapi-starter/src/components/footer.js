@@ -1,6 +1,11 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { FaFacebookSquare, FaGithub, FaInstagram } from "react-icons/fa"
+import {
+  FaFacebookSquare,
+  FaGithub,
+  FaInstagram,
+  FaStackOverflow,
+} from "react-icons/fa"
 import Link from "./link"
 import styled from "styled-components"
 import footerItems from "../data/footer.json"
@@ -26,10 +31,10 @@ const FooterStyling = styled.footer`
   }
 `
 
-let SocialLink = ({ Icon }) => (
-  <Link to="/" className="mr-2">
+let SocialLink = ({ Icon, url }) => (
+  <a href={url} className="mr-2">
     <Icon size={30} />
-  </Link>
+  </a>
 )
 
 let FooterLink = ({ to, children }) => (
@@ -42,21 +47,9 @@ let Footer = () => (
   <FooterStyling>
     <Container>
       <Row>
-        {footerItems.map((item) => (
-          <Col key={item.name} xs={12} md={3}>
-            <h5>{item.name}</h5>
-            <ul>
-              {item.dropdownItems.map((dropdownItem) => (
-                <FooterLink key={dropdownItem.id} to={dropdownItem.url}>
-                  {dropdownItem.name}
-                </FooterLink>
-              ))}
-            </ul>
-          </Col>
-        ))}
         <Col xs={12} md={3}>
-          <h5>Find me on social media!</h5>
-          <SocialLink Icon={FaGithub} />
+          <h5>Check out my Github!</h5>
+          <SocialLink Icon={FaGithub} url="https://github.com/spaceC00kie" />
         </Col>
       </Row>
     </Container>
