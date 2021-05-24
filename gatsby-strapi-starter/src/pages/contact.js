@@ -43,7 +43,7 @@ let ContactItem = ({ text, type, Icon, href }) => (
 )
 
 let Contact = ({ data }) => {
-  let { email, phone, github } = data.site.siteMetadata
+  let { email, phone } = data.site.siteMetadata
   return (
     <Layout>
       <PageTitle title="Contact Me" />
@@ -61,20 +61,6 @@ let Contact = ({ data }) => {
             type="Phone"
             Icon={FaPhone}
           />
-          <ContactItem
-            text={github}
-            href={`tel:${phone}`}
-            type="Github"
-            Icon={FaGithub}
-          />
-        </Row>
-        <hr />
-        <Row className="py-5">
-          <Col md={6} className="m-auto">
-            <h4 className="text-center text-secondary">Message Me</h4>
-            <Hr />
-            <ContactForm />
-          </Col>
         </Row>
       </Container>
     </Layout>

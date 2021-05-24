@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa"
+import { FaFacebookSquare, FaGithub, FaInstagram } from "react-icons/fa"
 import Link from "./link"
 import styled from "styled-components"
 import footerItems from "../data/footer.json"
@@ -56,8 +56,7 @@ let Footer = () => (
         ))}
         <Col xs={12} md={3}>
           <h5>Find me on social media!</h5>
-          <SocialLink Icon={FaFacebookSquare} />
-          <SocialLink Icon={FaInstagram} />
+          <SocialLink Icon={FaGithub} />
         </Col>
       </Row>
     </Container>
