@@ -46,15 +46,6 @@ let Index = () => (
         <Service title="Harry Potter" Icon={FaBolt} />
       </Row>
     </Container>
-    <div className="text-center py-5">
-      <Button
-        to="https://github.com/spaceC00kie"
-        className="btn btn-primary btn-lg"
-      >
-        <FaGithub className="mr-1" />
-        Check out my Github
-      </Button>
-    </div>
     <HomeFeatures />
   </Layout>
 )
