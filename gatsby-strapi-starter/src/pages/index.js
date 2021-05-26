@@ -45,8 +45,8 @@ let Index = () => (
         <Service title="Tech Skills" Icon={FaWrench} />
         <Service title="Harry Potter" Icon={FaBolt} />
       </Row>
+      <HomeFeatures />
     </Container>
-    <HomeFeatures />
   </Layout>
 )
 
