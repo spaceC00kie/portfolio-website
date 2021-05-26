@@ -7,7 +7,7 @@ import footerItems from "../data/footer.json"
 
 const FooterStyling = styled.footer`
   padding: 3rem 0;
-  background: #f8f9fa;
+  background: #404040;
   a,
   a:hover {
     color: inherit;
