@@ -17,7 +17,7 @@ const Header = (props) => {
   const toggle = () => setIsOpen(!isOpen)
 
   return (
-    <StyledNavbar color="light" light expand="md">
+    <StyledNavbar color="dark" light expand="md">
       <Container>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
