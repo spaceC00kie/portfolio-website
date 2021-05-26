@@ -3,7 +3,6 @@ import { Container, Collapse, Navbar, NavbarToggler } from "reactstrap"
 import Link from "./link"
 import Navigation from "reactstrap-json-nav"
 import navigation from "../data/navigation"
-import logo from "../assets/images/logo.svg"
 import styled from "styled-components"
 
 let StyledNavbar = styled((props) => <Navbar {...props} />)`

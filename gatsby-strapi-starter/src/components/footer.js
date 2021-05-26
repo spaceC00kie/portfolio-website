@@ -1,11 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import {
-  FaFacebookSquare,
-  FaGithub,
-  FaInstagram,
-  FaStackOverflow,
-} from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 import Link from "./link"
 import styled from "styled-components"
 import footerItems from "../data/footer.json"
