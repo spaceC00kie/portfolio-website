@@ -17,7 +17,7 @@ let Banner = ({
 }) => {
   const phone_url = "tel:" + phone.replace(/ /g, "")
   return (
-    <div className="bg-light">
+    <div className="bg-dark">
       <Container>
         <div className="d-flex py-2 align-items-center">
           <div className="d-flex mr-auto">
