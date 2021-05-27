@@ -4,6 +4,7 @@ import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
+
 let StyledFeature = styled.div`
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   transition-duration: 0.25s;
@@ -12,15 +13,17 @@ let StyledFeature = styled.div`
   }
 `
 
-let Feature = ({ title, description, img }) => (
+let Feature = ({ title, description, img, url }) => (
   <Col md={4} className="mb-3">
-    <StyledFeature>
-      <Img fluid={img} />
-      <div className="p-3">
-        <h5>{title}</h5>
-        <p>{description}</p>
-      </div>
-    </StyledFeature>
+    <a href={url} >
+      <StyledFeature>
+        <Img fluid={img} />
+        <div className="p-3">
+          <h5>{title}</h5>
+          <p>{description}</p>
+        </div>
+      </StyledFeature>
+    </a>
   </Col>
 )
 
@@ -52,11 +55,13 @@ let HomeFeatures = () => {
           title="Task Manager"
           description="This woman is surprised by my task manager. I don't know why, but she is."
           img={data.slide1.childImageSharp.fluid}
+          url="https://github.com/spaceC00kie/react-to-do-list"
         />
         <Feature
           title="Soil Sensor"
           description="This guy thinks my soil sensor project is really neat."
           img={data.slide2.childImageSharp.fluid}
+          url="https://github.com/spaceC00kie/keep-my-plants-alive"
         />
         <Feature
           title="TBD"
