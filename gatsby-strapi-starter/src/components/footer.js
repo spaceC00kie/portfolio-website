@@ -28,7 +28,7 @@ const FooterStyling = styled.footer`
 
 let SocialLink = ({ Icon, url }) => (
   <a href={url} className="mr-2">
-    <Icon size={30} />
+    <Icon size={50} />
   </a>
 )
 
