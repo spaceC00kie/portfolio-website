@@ -39,12 +39,7 @@ let Index = () => (
       </div>
     </Container>
     <Container className="py-5">
-      <h2 className="text-center mb-4">Points of interest</h2>
-      <Row>
-        <Service title="Projects" />
-        <Service title="Tech Skills" Icon={FaWrench} />
-        <Service title="Harry Potter" Icon={FaBolt} />
-      </Row>
+      <h2 className="text-center mb-4">My Projects</h2>
       <HomeFeatures />
     </Container>
   </Layout>
