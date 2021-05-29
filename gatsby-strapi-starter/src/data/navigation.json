@@ -1,14 +1,5 @@
 [
   { "name": "Home", "url": "/" },
   { "name": "About", "url": "/about" },
-  {
-    "name": "My Projects",
-    "url": "",
-    "dropdownItems": [
-      { "name": "Task Manager", "url": "/test" },
-      { "name": "Soil Sensor", "url": "/test" },
-      { "name": "TBD", "url": "/test" }
-    ]
-  },
   { "name": "Contact", "url": "/contact" }
 ]
