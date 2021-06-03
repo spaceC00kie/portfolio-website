@@ -4,13 +4,13 @@ import PageTemplate from "../components/pageTemplate"
 let About = () => (
   <PageTemplate title="About Me">
     <p>
-      I'm a programmer.
+      It's nice to meet you! My name is Kirstie and I'm a programmer.
     </p>
     <p>
-    My journey began when I made a website to help me get a job in the customer service field. The experience was surprisingly fun and it yeilded more interviews. I started to think I might find a career I enjoyed in programming rather than using programming to help me find a job.
+    I began my journey began with making a simple website to help my job search in the customer service field. The experience was surprisingly fun and it yielded more interviews. I realized I could make programming my career rather than using it to help me find another job.
     </p>
     <p>
-      In November of 2020 I started studying in earnest. It's been tough but rewarding and I want to turn this into a career.
+      In November of 2020 I started studying in earnest. It's been tough but rewarding.
     </p>
   </PageTemplate>
 )
